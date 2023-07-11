@@ -1,0 +1,61 @@
+
+/* ## Layout*/
+:root{
+/* ### Primary*/
+--Light-red: hsl(0, 100%, 67%);
+--h1blue: hsl(178, 71%, 39%);
+--Green-teal2: hsl(180, 48%, 44%);
+--Green-teal3: hsl(180, 90%, 33%);
+--pclr2: hsl(70, 76%, 52%);
+--pclr1: hsl(240, 15%, 66%);
+--btnbg: hsl(70, 73%, 59%);
+--Violet-blue: hsla(256, 72%, 46%, 1);
+--Persian-blue: hsla(241, 72%, 46%, 0);
+
+/**### Neutral*/
+--Light-lavender: hsla(200, 9%, 87%, 0.407);
+--Dark-gray-blue: hsl(224, 30%, 27%);
+
+/*### Body Copy fonts*/
+--Font-size: 18px;
+}
+body{
+    background: var(--Light-lavender);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: scroll;
+}
+main{
+    max-height: 80%;
+}
+
+.top h1{
+    color: var(--h1blue);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.top > span p{
+    color: var(--pclr2);
+    font-weight: bold;
+}
+.top > p{
+    color: var(--pclr1);
+}
+.bottom{
+    height: 100%;
+}
+.bottom .left{
+    background-color: var(--Green-teal3);
+
+}
+.bottom .left button{
+    background-color: var(--btnbg);
+}
+.bottom .left button:hover{
+    background-color: hsla(70, 73%, 59%, 0.894);
+}
+.bottom .right{
+    background-color: var(--Green-teal2);
+
+}
